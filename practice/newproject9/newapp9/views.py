@@ -12,7 +12,6 @@ def about(request):
 def menu(request):
     return HttpResponse("menu")
 
-
 def book(request):
     return HttpResponse("Make a booking")
 
