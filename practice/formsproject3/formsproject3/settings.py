@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'formsapp3.apps.Formsapp3Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
