@@ -9,4 +9,4 @@ def blog_form(request):
             form.save()
     form = BlogForm()
     context = {'blogform': form}
-    return render(request, 'blog.html', context)
+    return render(request, 'templates/blog.html', context)

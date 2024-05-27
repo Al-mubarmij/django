@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'formsapp2.apps.Formsapp2Config',
+    #'formsapp2.apps.Formsapp2Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
