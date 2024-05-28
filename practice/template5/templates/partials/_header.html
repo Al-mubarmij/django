@@ -1,0 +1,15 @@
+
+
+<heade>
+    {% load static %}
+    <img src="{% static 'img/littlelemon.png' %}" width="100%" alt="">
+</heade>
+    
+<nav>
+        <ul>
+            <li style="display: inline-block;"><a href="{% url 'index' %}">Home</a></li>
+            <li style="display: inline-block;"><a href="{% url 'about' %}">About</a></li>
+            <li style="display: inline-block;"><a href="{% url 'menu' %}">Menu</a></li>
+            <li style="display: inline-block;"><a href="{% url 'book' %}">Book</a></li>
+        </ul>
+    </nav>
